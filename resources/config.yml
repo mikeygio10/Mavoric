@@ -7,7 +7,7 @@ Webhooks:
 
 Messages:
   # Message shown to all players on a ban/kick
-  onban: "§4[MAVORIC] A player has been removed from your game for abusing or hacking. Thanks for reporting them!"
+  onban: " A player has been removed from your game for abusing or hacking. Thanks for reporting them!"
   # Message shown to player who epearl glitches
   onpearl: "§cEpearl glitch detected. Reverted movement."
   
@@ -24,11 +24,11 @@ Messages:
     # Format of alert messages
     # {player} - Player alert is for
     # {cheat} - Cheat they violated.
-    format: "§c[MAVORIC]: §r§4{player} §7failed test for§c {cheat}§8: "
+    format: "§4{player} §7may be using §c{cheat}§8: "
 
 Autoban:
   # Should autobans be enabled? (IF THIS IS ENABLED, BANWAVES ARE OVERRIDDEN REGARDLESS IF BANWAVES ARE ENABLED!)
-  enabled: yes
+  enabled: no
   # If enabled, you can select type "KICK" or "BAN"
   type: kick
   # After how many violations should a player be banned/kicked? (50-80 is recommended)
@@ -56,9 +56,9 @@ Alerts:
   # Should mavoric alert staff with the "mavoric.alerts" permission / OP players
   enabled: yes
   # Should staff be allowed to decline and accept alerts?
-  command: yes
+  command: no
   # If banwaves are enabled, should a denial of a alert remove them from the wave?
-  remove-wave: yes
+  remove-wave: no
 
 Suppression:
   # Should mavoric suppression be enabled?
